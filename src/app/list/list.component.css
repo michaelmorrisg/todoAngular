@@ -3,24 +3,33 @@
     border-radius: 10px;
     width: 60%;
     margin: 0px auto;
+    position: relative;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
 .input-main {
-    width: 18%;
+    width: 50;
     min-width: 250px;
     margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
 }
 .delete-button {
     background-color: white;
     border: none;
     border-radius: 5px;
     padding-top: 4px;
+    position: absolute;
+    right: 10px;
 }
 .add-button {
     background-color: white;
     border: none;
     font-size: 16px;
+    padding: 10px 9px;
+    margin-left: 15px;
+    border-radius: 5px;
 }
 .list-input {
     background-color: rgba(255,255,255,.2);
@@ -28,4 +37,5 @@
     border: none;
     outline: none;
     border-bottom: 2px solid black;
+    font-size: 16px;
 }

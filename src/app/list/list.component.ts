@@ -8,15 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class ListComponent implements OnInit {
 
   tasks: string[]
+  inputTask: string
 
   constructor() { }
 
   ngOnInit() {
     this.tasks = ['Generic']
+    this.inputTask = ''
   }
 
   addTask(input){
     this.tasks.push(input)
+    this.inputTask = ''
   }
 
   removeTask(input){

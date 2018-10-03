@@ -1,6 +1,31 @@
 .task {
-    background-color: lightgray;
+    background-color: rgba(255,255,255,.5);
     border-radius: 10px;
     width: 60%;
     margin: 0px auto;
+}
+.input-main {
+    width: 18%;
+    min-width: 250px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 4px;
+}
+.add-button {
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+.list-input {
+    background-color: rgba(255,255,255,.2);
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
 }

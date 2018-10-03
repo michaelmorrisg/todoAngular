@@ -18,8 +18,10 @@ export class ListComponent implements OnInit {
   }
 
   addTask(input){
-    this.tasks.push(input)
-    this.inputTask = ''
+    if(input){
+      this.tasks.push(input)
+      this.inputTask = ''
+    }
   }
 
   removeTask(input){

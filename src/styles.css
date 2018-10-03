@@ -3,4 +3,5 @@ body {
     text-align: center;
     height: 100vh;
     background-image: linear-gradient(to bottom right, aqua, greenyellow);
+    font-family: 'Montserrat', sans-serif;
 }

@@ -13,7 +13,7 @@ export class ListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.tasks = ['Generic']
+    this.tasks = []
     this.inputTask = ''
   }
 
